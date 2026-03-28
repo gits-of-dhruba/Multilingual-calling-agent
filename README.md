@@ -5,7 +5,6 @@
 ![VaaniAI Banner](https://img.shields.io/badge/VaaniAI-Multilingual%20AI%20Calling%20Agent-00c8ff?style=for-the-badge&logo=phone&logoColor=white)
 
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat-square&logo=react)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat-square&logo=nodedotjs)](https://nodejs.org/)
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python)](https://python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Languages](https://img.shields.io/badge/Languages-8%20Indian%20Languages-orange?style=flat-square)](/)
@@ -306,10 +305,8 @@ The React dashboard has **5 tabs**:
 ### Backend (Production)
 | Technology | Purpose |
 |-----------|---------|
-| Node.js / Express | API Gateway |
 | Python / FastAPI | AI Service |
-| PostgreSQL (RDS) | Call history, tickets |
-| Redis Cluster | Session memory |
+| MongoDB | Call history, tickets |
 | Pinecone | Vector semantic recall |
 | Apache Kafka | Event streaming |
 | Elasticsearch | Log search & analytics |
